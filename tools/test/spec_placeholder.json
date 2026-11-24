@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "episode": "000-test",
+  "output": "test_placeholder.mp4",
+  "cover": "test_cover.jpg",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 20.0,
+  "series_tag": "Thud's Archive · #000 (test)",
+  "title_card": { "text": "Cleopatra vs the Pyramids", "start": 0, "end": 20.0 },
+  "backgrounds": [
+    { "start": 0.0, "end": 11.4, "image": "placeholder_a.jpg", "fit": "cover", "grade": "archival",
+      "move": { "from": { "zoom": 1.0, "x": 0.42, "y": 0.5 }, "to": { "zoom": 1.15, "x": 0.55, "y": 0.45 } } },
+    { "start": 11.4, "end": 20.0, "image": "placeholder_b.jpg", "fit": "contain", "grade": "bw",
+      "move": { "from": { "zoom": 1.0, "x": 0.5, "y": 0.5 }, "to": { "zoom": 1.08, "x": 0.5, "y": 0.45 } } }
+  ],
+  "captions": [
+    { "start": 0.2, "end": 2.8, "words": ["Cleopatra", "lived", "closer", "to", "the", "Moon", "landing"] },
+    { "start": 2.8, "end": 5.2, "words": ["than", "to", "the", "building", "of", "the", "Great", "Pyramid."] },
+    { "start": 5.4, "end": 8.4, "words": ["The", "Great", "Pyramid:", "finished", "around", "2560", "BC."] },
+    { "start": 8.6, "end": 11.4, "words": ["Cleopatra", "died", "in", "30", "BC.", "About", "2,500", "years", "later."] },
+    { "start": 11.6, "end": 14.6, "words": ["The", "Moon", "landing?", "1969.", "About", "2,000", "years", "after", "her."] },
+    { "start": 14.8, "end": 17.4, "words": ["To", "her,", "the", "pyramids", "were", "already", "ancient."] }
+  ],
+  "credits": [
+    { "text": "Image: placeholder (test only)", "start": 0, "end": 20.0 }
+  ],
+  "thud": {
+    "position": "lower_left",
+    "height": 330,
+    "track": [
+      { "t": 0.0, "pose": "idle" },
+      { "t": 4.2, "pose": "blink" },
+      { "t": 6.0, "pose": "glance_right" },
+      { "t": 7.6, "pose": "idle" },
+      { "t": 10.1, "pose": "blink" },
+      { "t": 13.0, "pose": "glance_left" },
+      { "t": 14.6, "pose": "idle" },
+      { "t": 17.3, "pose": "half_blink" }
+    ]
+  },
+  "verdict": { "text": "Noted.", "start": 17.6, "end": 20.0 },
+  "sfx": [ { "t": 17.6, "type": "thud", "volume": 1.0 } ],
+  "music": null,
+  "loop": { "fade_seconds": 0.4 },
+  "cover_time": 0.6
+}
